@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<body>
+  <%= form_with model: @form do |form| %>
+    <div>
+      <%= form.label :user_last_name %><br>
+      <%= form.text_field :user_last_name %>
+    </div>
+    <div>
+      <%= form.label :user_first_name %><br>
+      <%= form.text_field :user_first_name %>
+    </div>
+    <div>
+      <%= form.label :user_last_reading %><br>
+      <%= form.text_field :user_last_reading %>
+    </div>
+    <div>
+      <%= form.label :user_first_reading %><br>
+      <%= form.text_field :user_first_reading %>
+    </div>
+    <div>
+      <%= form.label :login_id %><br>
+      <%= form.text_field :login_id %>
+    </div>
+    <div>
+      <%= form.label :login_pw %><br>
+      <%= form.text_field :login_pw %>
+    </div>
+    <div>
+      <%= form.submit %>
+    </div>
+  <% end %>
+</body>
+
+
+</body>
+</html>
+
+
